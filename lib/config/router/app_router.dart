@@ -8,8 +8,8 @@ final appRouter = GoRouter(initialLocation: '/', routes: [
     builder: (context, state) => const HomeScreen(),
   ),
   GoRoute(
-    name: 'buttons',
-    path: ButtonsScreen.name,
+    name: ButtonsScreen.name,
+    path: '/buttons',
     builder: (context, state) => const ButtonsScreen(),
   ),
   GoRoute(

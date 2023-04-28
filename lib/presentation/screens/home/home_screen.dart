@@ -37,7 +37,7 @@ class _CustomListTitle extends StatelessWidget {
     required this.menuItem,
   });
 
-  final MenuItmes menuItem;
+  final MenuItems menuItem;
 
   @override
   Widget build(BuildContext context) {
